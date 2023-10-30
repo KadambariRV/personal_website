@@ -1,0 +1,112 @@
+.advanced__background {
+    background-image: url('../assets/machines.jpeg');
+    background-size: cover;
+    height:500px;
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-position: center center;
+  }
+  .advanced__backgroundBody {
+    position:  relative;
+    top:20%;
+    left:20%;
+    height: 60%;
+    width: 60%;
+    backdrop-filter: blur(30px);
+    color:#fff;
+    /* transition: 100ms backdrop-filter linear; */
+  }
+  /* .advanced__backgroundBody:hover {
+    backdrop-filter: none;
+  } */
+  .advanced__backgroundBody p {
+    color: #fff;
+    /* background: #ccc; */
+    position: relative;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom:20%;
+    /* margin: 40% 40%; */
+  }
+
+  .white-space{
+    width: 100%;
+    height: 10vh;
+  }
+
+  .background{
+    background-color: #f4f4f6;
+  }
+
+  .body{
+    font-family: 'Nunito', sans-serif;
+    padding: 50px;
+  }
+
+  .div-1{
+    padding-top: 50px;
+	  padding-bottom: 50px;
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  } 
+
+  .card-1{
+    background-image: url('../assets/telegram_bot.png' );
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+
+  .card-2{
+    background-image: url('../assets/bottle.jpeg' );
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+
+  .card-3{
+    background-image: url('../assets/iitm.png' );
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+
+  .card-4{
+    background-image: url('../assets/chegg.png' );
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+
+  .card{
+    background-color: #f4f4f6;
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
+
+  .nav-link {
+    color: darkblue;
+  }
+
+  .navbar{
+    background-color: antiquewhite;
+  }
+
+  .footer{
+    background-color: #f7fbe2;
+  }
+
+  .footer-text{
+    position: relative;
+    text-align: right;
+  }
+
+
+
