@@ -1,4 +1,28 @@
-.advanced__background {
+/*css for the whole body*/
+body {
+  margin: 30;
+  padding: 20;
+  /* z-index: 0; */
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Nunito Sans', sans-serif;
+  /* display: grid; */
+  /* grid-template-rows: auto 1fr auto; */
+  font-size: 18px;
+}
+/*css to place footer always at the end of the page*/
+body::after {
+  content: '';
+  display: block;
+  height: 200px;
+}
+/* font style for headings*/
+h1, h2, h3, h4{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+
+  .advanced__background {
     background-image: url('../assets/machines.jpeg');
     background-size: cover;
     height:500px;
@@ -39,9 +63,32 @@
     background-color: #f4f4f6;
   }
 
-  .body{
-    font-family: 'Nunito', sans-serif;
-    padding: 50px;
+  nav{
+    margin-bottom: 20px;
+  }
+
+  .navbar{
+    background-color: antiquewhite;
+  }
+
+  .nav{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav li{
+    display: inline;
+  }
+
+  .nav-item{
+    padding: 0 20px;
+    color: rgba(187, 171, 212, 0.05); 
+  }
+
+  .nav-dark{
+    color: rgba(187, 171, 212, 0.05);
   }
 
   .div-1{
@@ -91,16 +138,12 @@
     cursor: pointer;
   }
 
-  .nav-link {
-    color: darkblue;
-  }
-
-  .navbar{
-    background-color: antiquewhite;
-  }
-
   .footer{
     background-color: #f7fbe2;
+    position: absolute;
+	  bottom: 0;
+    height: 150px;
+    width: 100%;  
   }
 
   .footer-text{
@@ -112,5 +155,15 @@
     color: darkblue;
   }
 
+  .footer-quote{
+    justify-content: center;
+  }
+
+  .footer-favs{
+    display: flex;
+    justify-content: center;
+  }
+
+  
 
 
